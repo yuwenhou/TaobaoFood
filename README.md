@@ -11,7 +11,11 @@
  
  ### 2.函数介绍
  def search(): 获取网页响应，并查找输入框，输入关键词进行搜索
+ 
  def next_page(page_number): 查找翻页的css，并进行翻页和确认
+ 
  def get_products(): 获得每页宝贝的详细内容
+ 
  def save_to_mongo(result): 保存到mongo数据库
+ 
  def main(): 主函数
